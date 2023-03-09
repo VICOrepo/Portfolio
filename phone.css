@@ -15,6 +15,10 @@
 #intro h2{
    font-size: 1.5rem;
 }
+#intro p{
+    text-emphasis: justify;
+}
+
 
 /* portfolio */
 

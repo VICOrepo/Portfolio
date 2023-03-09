@@ -22,6 +22,9 @@
     text-align: center;
     padding: 10px;
 }
+#intro p{
+    text-emphasis: justify;
+}
 
 /* contact */
 .input{
