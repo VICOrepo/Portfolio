@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    width: 100% !important;
+}
 html{
     scroll-behavior: smooth;
 }
@@ -116,7 +119,7 @@ html{
     flex-direction: column;
     box-sizing: border-box;
     padding: 20px;
-    margin-bottom: 50px;
+    background-color: rgb(128, 163, 100);
 }
 #pic{
     display: flex;
@@ -138,6 +141,11 @@ html{
 #intro h2{
     font-size: 2rem;
     margin-bottom: 20px;
+    padding-left: 30px;
+}
+#intro p{
+    padding-left: 30px;
+    font-size: 20px;
 }
 
 /* Portfolio */
@@ -168,6 +176,7 @@ html{
     display: flex;
     flex-direction: column;
     padding: 20px;
+    background-color: rgb(108, 153, 90);
 
 }
 .row{
@@ -182,27 +191,27 @@ html{
     width: 350px;
     height: 450px;
     border: 1px solid black;
-    margin: 10px;
+    margin: 5px;
     align-items: center;
     text-align: justify;
-    padding: 10px;
+    padding: 5px;
     border-radius: 15px;
-    background: linear-gradient(to top, rgb(255,45,45) 50%, white 50%);
+    background: linear-gradient(to top, rgb(69, 143, 35) 50%, white 50%);
     background-size: 100% 200%;
     transition: all .8s;
 }
 
 .box:hover{
     background-position: left bottom;
-    color: white;
+    color: rgb(255, 255, 255);
     border: none;
-    box-shadow: 0 0 20px rgb(255,45,45);
+    box-shadow: 0 0 20px rgb(69, 143, 35);
 }
 
 .box img{
-    width: 80px;
-    height: 80px;
-    background-color: white;
+    width: 50%;
+    height: 50%;
+    background-color: transparent;
     padding: 10px;
 }
 
@@ -212,7 +221,7 @@ html{
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    background-color: #9fc92b;
+    background-color:  rgb(90, 138, 71);;
     color: rgb(0, 0, 0);
     padding: 20px;
 }
@@ -253,7 +262,7 @@ footer{
     position: absolute;
     background-color: rgb(61, 90, 24);
     height: auto;
-    width: 100vw;
+    width: 100%;
     font-family: century;
     padding-top: 40px;
     color: #fff;
@@ -308,7 +317,7 @@ footer{
 
 .footer-bottom{
     background-color: #000;
-    width: 100vw;
+    width: 100%;
     padding: 20px 0;
     text-align: center;
 }
