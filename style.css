@@ -147,6 +147,7 @@ html{
     padding-left: 30px;
     font-size: 20px;
     text-emphasis: justify;
+    text-align: justify;
 }
 
 /* Portfolio */
@@ -177,7 +178,7 @@ html{
     display: flex;
     flex-direction: column;
     padding: 20px;
-    background-color: rgb(108, 153, 90);
+    background-color: rgb(132, 206, 103);
 
 }
 .row{
@@ -191,13 +192,13 @@ html{
     flex-direction: column;
     width: 350px;
     height: 450px;
-    border: 1px solid black;
+    border: 1px solid transparent;
     margin: 5px;
     align-items: center;
     text-align: justify;
-    padding: 5px;
+    padding: 10px;
     border-radius: 15px;
-    background: linear-gradient(to top, rgb(69, 143, 35) 50%, white 50%);
+    background: linear-gradient(to top, rgb(93, 182, 52) 50%, white 50%);
     background-size: 100% 200%;
     transition: all .8s;
 }
@@ -213,10 +214,11 @@ html{
     width: 50%;
     height: 50%;
     background-color: transparent;
+    justify-content: center;
     padding: 10px;
 }
 
-/* Contact services */
+/* Contact section */
 
 #contact{
     display: flex;
